@@ -2,7 +2,7 @@ class Application
     def call(env)
         status = 200
         headers = {"Content-Type" => "text/html"}
-        body = [" Yay, your first web app!"]
+        body = [" 200 is 200."]
 
         [status, headers, body]
     end
